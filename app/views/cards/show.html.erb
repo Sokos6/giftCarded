@@ -1,0 +1,11 @@
+<h1><%= @card.issuing_company %></h1>
+<p>Card #: <%= @card.card_number %></p>
+<p>Balance: $<%= number_with_precision(@card.balance, :precision => 2) %></p>
+
+<table>
+<% @card.transactions.each do |tx| %>
+<tr>
+    <td><%= tx.tx_type%></td><td><%= tx.tx_amount %></td>
+</tr>
+<% end %>
+</table>

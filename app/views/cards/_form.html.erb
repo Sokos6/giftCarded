@@ -1,0 +1,9 @@
+<%= form_for @card do |f| %>
+  <%= f.label :issuing_company %>
+  <%= f.text_field :issuing_company %><br>
+  <%= f.label :card_number %>
+  <%= f.text_field :card_number %><br>
+  <%= f.label :balance %>
+  <%= f.text_field :balance %><br>
+  <%= f.submit %>
+<% end %>

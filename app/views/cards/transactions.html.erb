@@ -1,0 +1,8 @@
+<table>
+<% @transactions.each do |tx| %>
+<tr>
+    <td><%= tx.tx_type %></td>
+    <td><%= tx.tx_amount %></td>
+</tr>
+<% end %>
+</table>

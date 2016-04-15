@@ -1,0 +1,5 @@
+<%= form_for @transaction, url:{action: 'complete_transaction'} do |f| %>
+<%= select_tag(:tx_type, options_for_select(['credit', 'debit'])) %>
+  <%= f.text_field :tx_amount %>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,10 @@
+<ul id="ccList">
+<% @cards.each do |card| %>
+	<li cc-id="<%= card.id %>">
+		<%= link_to(card.card_number, card) %> |
+		<%= link_to("Delete", card, method: :delete) %> |
+		<%= link_to 'edit' %>
+	</li>
+<% end %>
+</ul>
+

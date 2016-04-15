@@ -1,0 +1,19 @@
+current directory: /Users/sokos6/Desktop/testtest/vendor/bundle/gems/byebug-8.2.4/ext/byebug
+/Users/sokos6/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20160414-88947-j8nyub.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sokos6/Desktop/testtest/vendor/bundle/gems/byebug-8.2.4/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/sokos6/Desktop/testtest/vendor/bundle/gems/byebug-8.2.4/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/sokos6/Desktop/testtest/vendor/bundle/gems/byebug-8.2.4/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20160414-88947-1resem6/byebug
